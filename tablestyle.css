@@ -1,0 +1,84 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,101,127,1) 17%, rgba(8,87,111,1) 26%, rgba(9,98,121,1) 48%, rgba(0,212,255,1) 100%);
+    background-attachment: fixed;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#form {
+    width: 400px;
+    margin: 10vh auto 20vh auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+#form button {
+    background-color: purple;
+    color: azure;
+    border: 1px solid purple;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+    padding: 10px;
+}
+
+.input-group input {
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid skyblue;
+}
+
+.input-group input:focus {
+    outline: 0;
+}
+
+.input-group .error {
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.input-group.Success input {
+    border-color: green;
+}
+
+.input-group.Error input {
+    border-color: red;
+}
+
+#data-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#data-table th, #data-table td {
+    padding: 10px;
+    text-align: left;
+    background-color: azure;
+}
+
+#data-table th {
+    background-color: purple;
+    color: azure;
+}

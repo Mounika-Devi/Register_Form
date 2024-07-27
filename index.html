@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="tablestyle.css">
+    <script src="tablescript.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <form action="" id="form">
+            <h1>Register</h1>
+            <div class="input-group">
+                <label for="uname">Name</label>
+                <input type="text" id="uname" placeholder="name"/>
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="age">Age</label>
+                <input type="text" id="age" placeholder="Age"/>
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="email"/>
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="course">Course</label>
+                <input type="text" id="course" placeholder="course"/>
+                <div class="error"></div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <table id="data-table" border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                    <th>Course</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table rows will be inserted here by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
